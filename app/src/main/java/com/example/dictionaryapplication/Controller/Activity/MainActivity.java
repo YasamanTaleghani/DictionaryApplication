@@ -1,8 +1,10 @@
-package com.example.dictionaryapplication;
+package com.example.dictionaryapplication.Controller.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.dictionaryapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 
