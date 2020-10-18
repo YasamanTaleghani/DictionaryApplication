@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Controler.Fragment.MeaningFragment"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBackGround"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/definition"
+            android:textSize="26sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView_definition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Word Definition"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/synonyms"
+            android:textSize="22sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView_synonyms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="This is synonyms">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="@string/example">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="this is the example"
+            android:textSize="18sp">
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
